@@ -1,0 +1,114 @@
+:root{
+    --main:hsl(219, 30%, 18%);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* start nav  */
+.nav{
+    background-color:  var(--main);
+}
+.logo-img {
+    left: 5%;
+    width: 100px;
+    height: 50px;
+}
+/* end nav  */
+/* start landing  */
+.landing{
+    background-color: var(--main) ;
+  
+}
+
+
+.main-btn{
+    background-color: hsl(198, 60%, 50%);
+    width: 200px;
+    z-index: 100;
+}
+.features{
+    
+    background-color: hsl(218, 28%, 13%);
+     
+}
+.curv{
+  
+      background-image: url("../images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+}
+.breif{
+    min-height: 100vh;
+    background-color: hsl(218, 28%, 13%);
+
+}
+.breif .link{
+    
+    text-decoration: none;
+    position: relative;
+    color: hsl(176, 68%, 64%);
+}
+.breif .link::after{
+       content: "";
+    position: absolute;
+    width: 158px;
+    height: 2px;
+    background-color: hsl(176, 68%, 64%);
+    left: 50%;
+    top: 111%;
+    transform: translate(-50%, -50%);
+}
+.testemonials
+{
+    background-color: hsl(218, 28%, 13%);
+
+}
+
+.hold-test{
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+}
+
+/* start over  */
+.over{
+    background-color:hsl(218, 28%, 13%) ;
+}
+
+.hold-over{
+  background-color:   hsl(219, 30%, 18%);
+      padding: 30px 50px;
+      border-radius:10px ;
+          transform: translateY(35%);
+
+}
+.input-field:focus{
+    outline: none;
+    color: hsl(198, 60%, 50%);
+}
+/* start footer  */
+.footer{
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 150px;
+}
+.location{
+    left: 100px;
+}
+.footer .first{
+    display: flex;
+    align-items: center;
+}
+.par-footer{
+
+        top: 50%;
+    position: relative;
+    transform: translateY(27%);
+    color: rgb(255 255 255 / 58%)
+
+}
+.third-col{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255 255 255 / 58%)
+}
+.second-ul{
+    color: rgb(255 255 255 / 58%)
+}
